@@ -1,3 +1,2 @@
 x = 'ауууу!'
-print(x)
-print(x)
+print(x, "\n", x, sep="")
