@@ -1,0 +1,10 @@
+a = input()
+b = input()
+c = input()
+one = int(a)
+two = int(b)
+three = int(c)
+print(two >= one)
+print(one)
+print(three)
+
