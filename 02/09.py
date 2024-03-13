@@ -1,10 +1,10 @@
-a = input()
-b = input()
-c = input()
-one = int(a)
-two = int(b)
-three = int(c)
-print(two >= one)
-print(one)
-print(three)
-
+a = int(input())
+b = int(input())
+c = int(input())
+if a > b:
+    a,b = b,a
+if a > c:
+    a,c = c,a
+if b > c:
+    b,c = c,b
+print(c, "\n",  b, "\n", a, sep="")
