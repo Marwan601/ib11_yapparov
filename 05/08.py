@@ -8,4 +8,5 @@ while slova != "СТОП":
       cifra += 1;
    if "кот" in slova:
       kot = True
-print(cifra)
+      koti += 1
+print(koti, cifra)
