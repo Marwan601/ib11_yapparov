@@ -1,14 +1,12 @@
-kil = int(input())
-ura = set()
-diff = set()
-for i in range(kil):
-    frik = int(input())
-    lop = set()
-    for a in range(frik):
-        name = input()
-        if i == 0:
-            ura.add(name)
-        elif name in ura:
-            lop.add(name)
-    ipa = ura.intersection(lop)
-print(ipa)
+bibletiok = int(input())
+kniga = int(input())
+sin = set()
+for i in range(bibletiok):
+    nov = input()
+    sin.add(nov)
+for i in range(kniga):
+    kop = input()
+    if kop in sin:
+        print("да")
+    else:
+        print("нет")
